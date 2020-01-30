@@ -14,5 +14,10 @@ export const config: Config = {
       baseUrl: "https://myapp.local/"
     }
   ],
-  plugins: [dotenvPlugin()]
+  plugins: [
+    dotenvPlugin()
+    //   {
+    //   cwd: "../../" // set the working directory to the root of the project
+    // }
+  ]
 };
